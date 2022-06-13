@@ -1,0 +1,7 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/afiss/Bureau/Cours/presents'
+gcc  -c -Wall -I.  -c -o present.o present.c
+gcc  -c -Wall -I.  -c -o main.o main.c
+gcc -O3 present.o main.o  -o present 
+make: Leaving directory '/home/afiss/Bureau/Cours/presents'
+ 
